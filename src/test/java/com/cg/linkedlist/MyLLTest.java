@@ -57,5 +57,19 @@ public class MyLLTest {
         boolean result = myLL.head.equals(mySNode) &&  myLL.tail.equals(myTNode);
         Assert.assertTrue(result);
     }
+    @Test
+    public void given3nosPopLast() {
+        MyNode<Integer> myTNode = new MyNode<>(70);
+        MyNode<Integer> mySNode = new MyNode<>(30);
+        MyNode<Integer> myFNode = new MyNode<>(56);
+        MyLinkedList myLL = new MyLinkedList();
+        myLL.add(myFNode);
+        myLL.append(mySNode);
+        myLL.append(myTNode);
+        myLL.popLast();
+        myLL.printMyNodes();
+        boolean result = myLL.head.equals(myFNode) &&  myLL.tail.equals(mySNode);
+        Assert.assertTrue(result);
+    }
 }
 
