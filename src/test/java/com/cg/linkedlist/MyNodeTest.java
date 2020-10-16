@@ -1,4 +1,4 @@
-/*package com.cg.linkedlist;
+package com.cg.linkedlist;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -14,4 +14,4 @@ public class MyNodeTest {
         boolean result = myFNode.getNext().equals(mySNode) && mySNode.getNext().equals(myTNode);
         Assert.assertTrue(result);
     }
-}*/
+}
