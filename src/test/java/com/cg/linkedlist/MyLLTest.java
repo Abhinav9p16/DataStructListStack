@@ -30,4 +30,18 @@ public class MyLLTest {
         boolean result = myLL.head.equals(myFNode) && myLL.head.getNext().equals(mySNode) && myLL.tail.equals(myTNode);
         Assert.assertTrue(result);
     }
+    @Test
+    public void given3nosInsertShdBeAddedBw() {
+        MyNode<Integer> myTNode = new MyNode<>(70);
+        MyNode<Integer> mySNode = new MyNode<>(30);
+        MyNode<Integer> myFNode = new MyNode<>(56);
+        MyLinkedList myLL = new MyLinkedList();
+        myLL.add(myFNode);
+        myLL.append(myTNode);
+        myLL.insert(myFNode,mySNode);
+        myLL.printMyNodes();
+        boolean result = myLL.head.equals(myFNode) && myLL.head.getNext().equals(mySNode) && myLL.tail.equals(myTNode);
+        Assert.assertTrue(result);
+    }
 }
+
