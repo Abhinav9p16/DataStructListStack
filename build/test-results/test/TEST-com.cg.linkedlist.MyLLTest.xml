@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.cg.linkedlist.MyLLTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-16T17:35:13" hostname="ABHINAVs-MacBook-Air.local" time="0.005">
+<testsuite name="com.cg.linkedlist.MyLLTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-16T18:12:20" hostname="ABHINAVs-MacBook-Air.local" time="0.005">
   <properties/>
-  <testcase name="given3nosShdBeAddedTop" classname="com.cg.linkedlist.MyLLTest" time="0.005"/>
+  <testcase name="given3nosAppendedShdBeAddedLast" classname="com.cg.linkedlist.MyLLTest" time="0.005"/>
   <system-out><![CDATA[My Nodes: 56->30->70
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
