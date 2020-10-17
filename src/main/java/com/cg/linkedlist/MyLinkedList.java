@@ -63,6 +63,17 @@ public class MyLinkedList {
         }
         return false;
     }
+    public boolean delete(INode myNode) {
+        if (!search(myNode)) return false;
+        INode tempNode = head;
+        while (tempNode.getNext().getKey() != myNode.getKey()) {
+            tempNode = tempNode.getNext();
+        }
+        tempNode.setNext(tempNode.getNext().getNext());;
+        return true;
+    }
+
+
     public void printMyNodes(){
         StringBuffer myNodes = new StringBuffer("My Nodes: ");
         INode tempNode = head;
