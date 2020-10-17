@@ -81,9 +81,24 @@ public class MyLLTest {
         myLL.append(mySNode);
         myLL.append(myTNode);
         myLL.printMyNodes();
-
         boolean result = myLL.search(mySNode);
         Assert.assertTrue(result);
+    }
+    @Test
+    public void given3nosInsertOne() {
+        MyNode<Integer> myTNode = new MyNode<>(70);
+        MyNode<Integer> mySNode = new MyNode<>(30);
+        MyNode<Integer> myFNode = new MyNode<>(56);
+        MyNode<Integer> my4Node = new MyNode<>(40);
+        MyLinkedList myLL = new MyLinkedList();
+        myLL.add(myFNode);
+        myLL.append(mySNode);
+        myLL.append(myTNode);
+        myLL.printMyNodes();
+        boolean result = myLL.search(mySNode);
+        Assert.assertTrue(result);
+        myLL.insert(mySNode,my4Node);
+        myLL.printMyNodes();
     }
 }
 
