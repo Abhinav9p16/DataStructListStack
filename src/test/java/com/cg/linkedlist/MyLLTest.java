@@ -3,9 +3,6 @@ package com.cg.linkedlist;
 import org.junit.Assert;
 import org.junit.Test;
 
-import java.util.Collections;
-import java.util.LinkedList;
-
 public class MyLLTest {
     @Test
     public void given3nosShdBeAddedTop() {
@@ -143,7 +140,6 @@ public class MyLLTest {
         myLL.insert(mySNode, my4Node);
         myLL.printMyNodes();
         myLL.printMyNodes();
-
     }
 }
 
