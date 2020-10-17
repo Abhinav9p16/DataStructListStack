@@ -71,5 +71,19 @@ public class MyLLTest {
         boolean result = myLL.head.equals(myFNode) &&  myLL.tail.equals(mySNode);
         Assert.assertTrue(result);
     }
+    @Test
+    public void given3nosSearch() {
+        MyNode<Integer> myTNode = new MyNode<>(70);
+        MyNode<Integer> mySNode = new MyNode<>(30);
+        MyNode<Integer> myFNode = new MyNode<>(56);
+        MyLinkedList myLL = new MyLinkedList();
+        myLL.add(myFNode);
+        myLL.append(mySNode);
+        myLL.append(myTNode);
+        myLL.printMyNodes();
+
+        boolean result = myLL.search(mySNode);
+        Assert.assertTrue(result);
+    }
 }
 

@@ -1,5 +1,7 @@
 package com.cg.linkedlist;
 
+import java.security.Key;
+
 public class MyLinkedList {
     public INode tail;
     public INode head;
@@ -50,6 +52,16 @@ public class MyLinkedList {
         this.tail=tempNode;
         tempNode=tempNode.getNext();
         return tempNode;
+    }
+    public boolean search(INode myNode) {
+        INode temp = head;
+        while (temp != null) {
+            if (temp.getKey() == myNode.getKey()) {
+                return true;
+            }
+            temp = temp.getNext();
+        }
+        return false;
     }
     public void printMyNodes(){
         StringBuffer myNodes = new StringBuffer("My Nodes: ");
