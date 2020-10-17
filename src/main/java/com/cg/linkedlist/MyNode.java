@@ -11,7 +11,7 @@ public class MyNode<K> implements INode<K> {
 
 
     @Override
-    public K getKey() { return null; }
+    public K getKey() { return key; }
 
     @Override
     public void setKey(K key) { this.key= key ;}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.cg.linkedlist.MyQueueTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-17T18:21:08" hostname="ABHINAVs-MacBook-Air.local" time="0.014">
+  <properties/>
+  <testcase name="given3nosStackBeAddedQueue" classname="com.cg.linkedlist.MyQueueTest" time="0.014"/>
+  <system-out><![CDATA[My Nodes: 56->30->70
+My Nodes: 30->70
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

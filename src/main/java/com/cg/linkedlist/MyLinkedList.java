@@ -6,7 +6,7 @@ import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.List;
 
-public class MyLinkedList {
+public class MyLinkedList<T> {
     public INode tail;
     public INode head;
 
