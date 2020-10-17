@@ -6,4 +6,6 @@ public interface INode<K> {
 
     INode getNext();
     void setNext(INode next);
+
+    int compareTo(INode m);
 }

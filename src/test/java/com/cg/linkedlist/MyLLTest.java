@@ -128,18 +128,20 @@ public class MyLLTest {
 
     @Test
     public void given4nosSort() {
-        MyNode<Integer> myTNode = new MyNode<>(70);
-        MyNode<Integer> mySNode = new MyNode<>(30);
-        MyNode<Integer> myFNode = new MyNode<>(56);
-        MyNode<Integer> my4Node = new MyNode<>(40);
-        MyLinkedList myLL = new MyLinkedList();
+        MyNode<Integer> myFNode = new MyNode<>(1);
+        MyNode<Integer> mySNode = new MyNode<>(3);
+        MyNode<Integer> myTNode = new MyNode<>(5);
+        MyNode<Integer> my4Node = new MyNode<>(7);
+        MyNode<Integer> my5Node = new MyNode<>(6);
+
+        MySortedLinkedList myLL = new MySortedLinkedList();
         myLL.add(myFNode);
-        myLL.append(mySNode);
-        myLL.append(myTNode);
+        myLL.add(mySNode);
+        myLL.add(myTNode);
+        myLL.add(my4Node);
+        myLL.add(my5Node);
         myLL.printMyNodes();
-        myLL.insert(mySNode, my4Node);
-        myLL.printMyNodes();
-        myLL.printMyNodes();
+
     }
 }
 

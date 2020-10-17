@@ -29,5 +29,11 @@ public class MyNode<K> implements INode<K> {
         if (next != null) myStr.append("->").append(next);
         return myStr.toString();
     }
+    @Override
+    public int compareTo(INode m){
+        if((int)this.key<(int)m.getKey()) return -1;
+        else if((int)this.key>(int)m.getKey()) return 1;
+        else return 0;
+    }
 }
 
