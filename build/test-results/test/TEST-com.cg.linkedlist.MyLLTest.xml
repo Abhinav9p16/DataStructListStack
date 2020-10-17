@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.cg.linkedlist.MyLLTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-17T06:05:46" hostname="ABHINAVs-MacBook-Air.local" time="0.007">
+<testsuite name="com.cg.linkedlist.MyLLTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-17T09:52:28" hostname="ABHINAVs-MacBook-Air.local" time="0.011">
   <properties/>
-  <testcase name="given4nosDeleteOne" classname="com.cg.linkedlist.MyLLTest" time="0.007"/>
+  <testcase name="given3nosInsertOne" classname="com.cg.linkedlist.MyLLTest" time="0.011"/>
   <system-out><![CDATA[My Nodes: 56->30->70
 My Nodes: 56->30->40->70
-My Nodes: 56->30->70
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
