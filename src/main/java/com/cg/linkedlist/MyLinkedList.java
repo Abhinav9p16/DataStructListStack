@@ -80,7 +80,7 @@ public class MyLinkedList<T> {
             tempNode = tempNode.getNext();
         }
         tempNode.setNext(tempNode.getNext().getNext());
-        ;
+
         return true;
     }
 
