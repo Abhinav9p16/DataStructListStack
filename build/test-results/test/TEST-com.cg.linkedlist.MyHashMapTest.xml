@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.cg.linkedlist.MyHashMapTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-18T18:40:47" hostname="ABHINAVs-MacBook-Air.local" time="0.003">
+<testsuite name="com.cg.linkedlist.MyHashMapTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-18T18:46:55" hostname="ABHINAVs-MacBook-Air.local" time="0.002">
   <properties/>
-  <testcase name="givenNodes_whenInitialize_shouldReturnBinarySearchTree" classname="com.cg.linkedlist.MyHashMapTest" time="0.003"/>
+  <testcase name="givenBinarySearchTree_whenSearched_shouldReturnPosition" classname="com.cg.linkedlist.MyHashMapTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

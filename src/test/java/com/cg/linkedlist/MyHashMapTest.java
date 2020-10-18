@@ -73,6 +73,30 @@ public class MyHashMapTest {
             int size = bst.getSize();
             Assert.assertEquals(13,size);
         }
+    BinarySearchTree bst;
+
+    @Before
+    public void initialize(){
+        bst = new BinarySearchTree();
+        bst.add(56);
+        bst.add(30);
+        bst.add(70);
+        bst.add(40);
+        bst.add(22);
+        bst.add(11);
+        bst.add(16);
+        bst.add(3);
+        bst.add(95);
+        bst.add(60);
+        bst.add(65);
+        bst.add(63);
+        bst.add(67);
+    }
+    @Test
+    public void givenBinarySearchTree_whenSearched_shouldReturnPosition() {
+        boolean present=bst.search(63);
+        Assert.assertTrue(present);
+    }
 }
 
 
