@@ -36,6 +36,24 @@ public class MyHashMapTest {
         int frequency = hashtable.get("paranoid");
         Assert.assertEquals(3, frequency);
     }
+    @Test
+    public void givenString_whenRemovedAvoidable_shouldReturnAvoidableFrequency() {
+        String str="avoidable";
+        MyHashTable<String,Integer> hashtable=new MyHashTable<>();
+        String[] words=str.toLowerCase().split(" ");
+        for(String s:words){
+            Integer value = hashtable.get(s);
+            if(value==null)
+                value=1;
+            else
+                value++;
+            hashtable.add(s,value);
+        }
+        hashtable.remove("avoidable");
+        Integer frequency = hashtable.get("avoidable");
+        Assert.assertEquals(null,frequency);
+    }
 }
+
 
 
